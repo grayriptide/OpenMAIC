@@ -4,7 +4,6 @@ import { PHASE_PRODUCTION_BUILD } from 'next/constants';
 const nextConfig: NextConfig = {
   // Keep Next dev from creating or rewriting repository agent instructions.
   agentRules: false,
-  output: 'standalone',
   env: {
     INTERACTIVE_ASSET_BASE_URL:
       process.env.INTERACTIVE_ASSET_BASE_URL?.trim() || '/vendor/interactive',
