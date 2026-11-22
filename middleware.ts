@@ -1,3 +1,4 @@
+export const runtime = 'nodejs';
 import { NextRequest, NextResponse } from 'next/server';
 
 import { isAgentRuntimeConfigured, isWorkbenchEnabled } from '@/lib/config/feature-flags';
